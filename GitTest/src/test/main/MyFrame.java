@@ -24,7 +24,7 @@ public class MyFrame extends JFrame implements ActionListener{
 		JButton sendBtn=new JButton("전송");
 		//버튼을 눌렀을 때 액션 command 지정하기
 		sendBtn.setActionCommand("send");
-		//버튼을 프레임의 북족에 배치하기
+		//버튼을 프레임의 북쪽에 배치하기
 		add(sendBtn, BorderLayout.NORTH);
 		//버튼에 액션 리스너 등록하기
 		sendBtn.addActionListener(this);
